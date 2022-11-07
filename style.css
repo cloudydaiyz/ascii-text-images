@@ -1,15 +1,21 @@
 /* Creating a black background with white text */
 /* Emphasis on Courier as the font -- it's fixed width, which
    works better for us in this case. */
+
+/* Play with the font-size and line-height! 
+     default font-size: 12
+     default line-height: 10
+*/
+
 html, body {
-    margin: 0;
-    padding: 0; 
-    background-color: #000;
-    color: #FFF;
-    font-family: "Courier";
-    font-size: 12pt;
-    line-height: 10pt;
+  margin: 0;
+  padding: 0; 
+  background-color: #000;
+  color: #FFF;
+  font-family: "Courier";
+  font-size: 2pt; /* Stretches the image horizontally */
+  line-height: 2pt; /* Stretches the image veritcally */
 }
 canvas {
-    display: block; 
+  display: block;
 }
